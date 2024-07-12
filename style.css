@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgb(236, 208, 154);
+}
+.nav{
+    background-color: rgb(245, 196, 107);
+    height: 100px;
+}
+.txt{
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(185, 47, 47);
+    float: inline-start
+}
+.nav img{
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 60px;
+    float: inline-end;
+}
+.form{
+    margin-top: 20px;
+    margin-left: 250px;
+    width:500px;
+    height: 700px;
+}
+input{
+    display: flex;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid rgb(187, 183, 183);
+}
+label{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.add{
+    padding: 4em;;
+}
+input:focus{
+    background-color: rgb(204, 197, 197);
+}
+.submit{
+    padding: 6px 100px;
+    background-color: rgb(185, 47, 47);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 110px;
+}
